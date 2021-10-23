@@ -1,0 +1,63 @@
+html,body
+        {
+        background-image: url('https://www.adweek.com/wp-content/uploads/2020/03/behr-zoom-background-feature-2020.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 110%;
+        font-family: 'Numans', sans-serif;
+        text-align: center;s
+        }
+        .form-content .form-items 
+        {
+        border: 3px solid #fff;
+        padding: 5px;
+        display: inline-block;
+        width: 50%;
+        min-width: 540px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        text-align: center;
+        -webkit-transition: all 0.4s ease;
+       }
+.form-content h3 
+{
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 1px;
+}
+.form-content label, .was-validated .form-check-input:invalid~.form-check-label, .was-validated .form-check-input:valid~.form-check-label
+{
+   color: #fff;
+ }
+ .form-content input[type=text], .form-content input[type=password], .form-content input[type=email], .form-content select 
+ {
+    width: 10% auto;
+    padding: 10px 20px;
+    text-align: center;
+    border: 1;
+    outline: 0;
+    border-radius: 28px;
+    background-color: #fff;
+    font-size: 25px;
+    font-weight: 300;
+    color: #8D8D8D;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    margin-top: 15px;
+}
+    .element.style 
+    {
+    margin: 1px;
+    height: 50px;
+    width: 578px;
+
+}
+/*.form-content textarea:hover, .form-content textarea:focus 
+{
+    border: 2;
+    background-color: #ebeff8;
+    color: #8D8D8D;
+}*/

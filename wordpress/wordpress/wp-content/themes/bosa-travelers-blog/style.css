@@ -1,0 +1,303 @@
+/*!
+Theme Name: Bosa Travelers Blog
+Theme URI: https://bosathemes.com/bosa-travelers-blog
+Author: Keon Themes
+Author URI: https://keonthemes.com
+Description: Bosa Travelers Blog is dark skin blog theme. Bosa Travelers Blog is clean, beautiful, fast, lightweight, minimal, responsive, extremely customizable theme that you can use as a foundation to build versatile sites such as blog, news, personal or professional blogs, magazine, lifestyle, travel, food, cooking, fashion, beauty, spa, bakery, photography, quotes, health & fitness, media, freelance, diy, affiliate blog, business, technology, blogger, portfolio and preferably ideal for any type of blog sites. Bosa Travelers Blog is a child theme of Bosa, a free multipurpose WordPress theme. Bosa Travelers Blog works perfectly with Gutenberg and the most popular page builder Elementor that can easily drag-and-drop your ideas from the interface. Bosa Travelers Blog is built with SEO, speed, and usability in mind with the multiple Header & Footer layouts, predesigned starter sites includes awesome Home & Inner Pages that is incredibly customizable and powerful enough to take a stand among the crowd. Bosa Travelers Blog is compatible with all major plugins like WooCommerce, Yoast, Contact form 7, Mailchimp for WordPress, bbPress, etc. Looking for a Multipurpose Blog theme? Look no further! Browse the demos to see that it's the only theme you will ever need: https://demo.bosathemes.com/bosa/travelers-blog
+Version: 1.0.2
+Requires PHP: 5.5
+Tested up to: 5.8
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Template: bosa
+Text Domain: bosa-travelers-blog
+Tags: blog, portfolio, news, grid-Layout, one-column, two-columns, three-columns, flexible-header, left-sidebar, right-sidebar, custom-background, custom-colors, custom-logo, custom-menu, featured-images, footer-widgets, full-width-template, post-formats, rtl-language-support, theme-options, sticky-post, threaded-comments, translation-ready, block-styles, wide-blocks
+
+Bosa Travelers Blog WordPress Theme, Copyright 2021 Keon Themes
+Bosa Travelers Blog is distributed under the terms of the GNU General Public License v3
+
+Bosa Travelers Blog is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+*/
+
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute !important;
+  width: 1px;
+  word-wrap: normal !important;
+}
+
+body {
+  color: #444444;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+  color: #3a3a3a;
+  font-family: 'Open Sans', serif;
+}
+
+.site-header .site-branding .site-title {
+	line-height: 1.4;
+}
+
+.wp-block-quote {
+  padding: 30px 30px 30px 50px;
+  margin: 30px 0 30px 30px;
+}
+
+.site-header .site-branding .site-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.4;
+    text-transform: none;
+}
+
+.section-banner .banner-content .entry-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1.4;
+    text-transform: none;
+}
+
+.section-banner .banner-content .entry-text p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8;
+    text-transform: initial;
+}
+
+.feature-posts-content-wrap .feature-posts-content .feature-posts-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.4;
+    text-transform: none;
+}
+
+.post .feature-posts-content .cat-links a {
+	font-family: 'Open Sans', sans-serif;
+}
+
+#primary article .entry-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    line-height: 1.4;
+    text-transform: none;
+}
+
+.highlight-post-slider .post .entry-content .entry-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.4;
+    text-transform: none;
+}
+
+.highlight-post-slider .post .cat-links a {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.sidebar .widget .widget-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    line-height: 1.4;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.page-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.site-footer .site-info,
+.post .entry-meta, 
+.attachment .entry-meta, 
+.banner-content .entry-meta,
+.site-footer .site-info,
+.site-footer .footer-menu ul li a,
+.post .feature-posts-content .entry-meta a,
+.highlight-post-slider .post .entry-meta a {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+.section-banner .slider-layout-two {
+  position: relative;
+}
+
+.section-banner .slider-layout-two .banner-content {
+  max-width: 100%;
+}
+
+.section-banner .slider-layout-two .slick-dotted.slick-slider {
+  margin-bottom: 0;
+}
+
+.section-banner .slider-layout-two .overlay {
+  background-color: #080808;
+}
+
+.section-banner .slider-layout-two .banner-img {
+  width: 100%;
+}
+
+.section-banner .slider-layout-two .post {
+  background-color: #ffffff;
+  margin-bottom: 100px;
+  margin-right: 30px;
+  margin-top: 100px;
+  padding: 60px;
+  position: relative;
+}
+
+.section-banner .slider-layout-two .slick-control li.slick-arrow span {
+  display: block;
+  width: 15px;
+  height: 15px;
+  margin: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .section-banner .slider-layout-two .slide-item {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    -ms-flex-pack: center;
+    position: relative;
+  }
+
+  .section-banner .slider-layout-two .banner-content.text-left, .section-banner .slider-layout-two .banner-content.text-right {
+    padding-right: 40px;
+  }
+  .section-banner .slider-layout-two .banner-content.text-center {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .section-banner .slider-layout-two .banner-img {
+    right: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 50%;
+    bottom: 0;
+  }
+
+  .section-banner .slider-layout-two .slick-control {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    -ms-flex-pack: center;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    right: 20px;
+  }
+
+  .section-banner .slider-layout-two .slick-control li.slick-arrow {
+    position: static;
+    top: inherit;
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+
+  .section-banner .slider-layout-two .slick-control li.slick-arrow.main-slider-prev {
+    margin-bottom: 10px;
+  }
+
+  .section-banner .slider-layout-two .slick-control li.slick-arrow.main-slider-prev span {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  .section-banner .slider-layout-two .slick-control li.slick-arrow.main-slider-next {
+    margin-top: 10px;
+  }
+
+  .section-banner .slider-layout-two .slick-control li.slick-arrow.main-slider-next span {
+    -webkit-transform: rotate(-135deg);
+    -moz-transform: rotate(-135deg);
+    -ms-transform: rotate(-135deg);
+    -o-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+  }
+
+  .section-banner .slider-layout-two .slick-dots {
+    position: static;
+  }
+
+  .section-banner .slider-layout-two .slick-dots li {
+    display: block;
+    margin: 6px;
+  }
+
+  .section-banner .slider-layout-two .slick-dots li button {
+    height: 11px;
+    width: 11px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .section-banner .slider-layout-two .banner-content {
+    padding-top: 30px;
+  }
+
+  .section-banner .slider-layout-two .banner-img {
+    height: 200px;
+  }
+
+  .section-banner .slider-layout-two .post {
+    margin-bottom: 50px;
+    margin-top: 50px;
+    padding: 30px;
+    margin-right: 0;
+  }
+}
